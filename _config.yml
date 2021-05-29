@@ -22,7 +22,7 @@ title: 合同会社OsaiFu
 main_title: OsaiFu Inc.
 email: info@osai-fu.co.jp
 description: >- # this means to ignore newlines until "baseurl:"
-OsaiFu Inc. Since 2020
+  OsaiFu Inc. Since 2020
 baseurl: "" # the subpath of your site, e.g. /blog
 url: ""
 
