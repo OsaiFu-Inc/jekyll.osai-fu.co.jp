@@ -25,6 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   OsaiFu Inc. Since 2020
 baseurl: "/osai-fu.co.jp" # the subpath of your site, e.g. /blog
 url: ""
+GitHub: OsaiFu-inc
 
 # Build settings
 theme: minima
