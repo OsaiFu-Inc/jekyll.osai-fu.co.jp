@@ -9,5 +9,9 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
-
+  {% if page.thumb %}
+    <meta name="twitter:image" content="{{ page.thumb }}" />
+  {% else %}
+     <meta name="twitter:image" content="assets/img/osaifu.png" />
+  {% endif %}
 </head>
