@@ -21,6 +21,7 @@
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
+            <img src="{{ "/assets/image/osaifu.png" | relative_url }}" alt="Osai-Fu Logo" style="height: 55.95px; display: inline">
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
